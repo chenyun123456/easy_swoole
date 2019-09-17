@@ -1,0 +1,38 @@
+[2019-09-02 15:16:22][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:23]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-02 15:16:44][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:23]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-02 15:16:54][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:23]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-02 15:20:35][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:22]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-02 15:20:43][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:22]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-02 15:20:45][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:22]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-02 15:20:51][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:22]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-02 15:22:05][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:22]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-04 11:01:51][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:33]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-04 11:01:55][FatalError][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:33]Cannot declare class App\HttpController\Index, because the name is already in use
+[2019-09-16 16:13:44][FatalError][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:54]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php:54
+Stack trace:
+#0 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php(54): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Core.php(116): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Arra
+[2019-09-16 16:14:34][FatalError][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:54]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php:54
+Stack trace:
+#0 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php(54): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Core.php(116): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Arra
+[2019-09-16 16:15:04][FatalError][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:54]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php:54
+Stack trace:
+#0 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php(54): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Core.php(116): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Arra
+[2019-09-16 16:15:42][FatalError][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php][line:54]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php:54
+Stack trace:
+#0 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/ServerManager.php(54): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Core.php(116): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Arra

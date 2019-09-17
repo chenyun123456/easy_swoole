@@ -1,0 +1,17 @@
+[2019-09-03 15:02:26][Exception][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:119]connect to swoole_chat_room@localhost at port 3306 fail: 1045 SQLSTATE[28000] [1045] Access denied for user 'swoole_chat_room'@'localhost' (using password: YES)
+[2019-09-03 15:10:08][Exception][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:119]connect to swoole_chat_room@localhost at port 3306 fail: 1045 SQLSTATE[28000] [1045] Access denied for user 'swoole_chat_room'@'localhost' (using password: YES)
+[2019-09-03 15:42:54][Exception][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/mysqli/src/Mysqli.php][line:119]connect to swoole_chat_room@localhost at port 3306 fail: 1045 SQLSTATE[28000] [1045] Access denied for user 'swoole_chat_room'@'localhost' (using password: YES)
+[2019-09-05 11:20:58][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:34]Call to undefined function App\HttpController\Index\Redis()
+[2019-09-05 11:26:59][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:34]Call to undefined function App\HttpController\Index\Redis()
+[2019-09-16 11:48:48][Exception][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/http/src/AbstractInterface/Controller.php][line:16]syntax error, unexpected 'abstract' (T_ABSTRACT), expecting ',' or ';'
+[2019-09-16 11:49:03][Exception][file:/home/cy513/Desktop/php/easy_swoole/vendor/easyswoole/http/src/AbstractInterface/Controller.php][line:16]syntax error, unexpected 'abstract' (T_ABSTRACT), expecting ',' or ';'
+[2019-09-16 11:57:36][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:40]syntax error, unexpected 'return' (T_RETURN)
+[2019-09-16 14:58:14][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\HttpController\Lib\Redis\Redis' not found
+[2019-09-16 14:59:32][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\HttpController\Lib\Redis\Redis' not found
+[2019-09-16 14:59:35][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\HttpController\Lib\Redis\Redis' not found
+[2019-09-16 14:59:36][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\HttpController\Lib\Redis\Redis' not found
+[2019-09-16 15:00:59][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\Lib\Redis\Redis' not found
+[2019-09-16 15:02:52][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'app\Lib\Redis\Redis' not found
+[2019-09-16 16:11:11][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\Lib\Redis\Redis' not found
+[2019-09-16 16:13:32][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\Lib\Redis\Redis' not found
+[2019-09-16 16:16:18][Exception][file:/home/cy513/Desktop/php/easy_swoole/App/HttpController/Index/Index.php][line:31]Class 'App\Lib\Redis\Redis' not found
